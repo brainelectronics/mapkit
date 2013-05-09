@@ -23,6 +23,9 @@
 		DFDA671E17286449002080F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDA66F917286448002080F1 /* Foundation.framework */; };
 		DFDA672617286449002080F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFDA672417286449002080F1 /* InfoPlist.strings */; };
 		DFDA672917286449002080F1 /* MapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA672817286449002080F1 /* MapKitTests.m */; };
+		DFDA673617286486002080F1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDA673517286486002080F1 /* MapKit.framework */; };
+		DFDA67381728648B002080F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDA67371728648B002080F1 /* CoreLocation.framework */; };
+		DFDA673E1728657A002080F1 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA673D1728657A002080F1 /* MapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		DFDA672517286449002080F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFDA672717286449002080F1 /* MapKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapKitTests.h; sourceTree = "<group>"; };
 		DFDA672817286449002080F1 /* MapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKitTests.m; sourceTree = "<group>"; };
+		DFDA673517286486002080F1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DFDA67371728648B002080F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DFDA673C1728657A002080F1 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		DFDA673D1728657A002080F1 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDA67381728648B002080F1 /* CoreLocation.framework in Frameworks */,
+				DFDA673617286486002080F1 /* MapKit.framework in Frameworks */,
 				DFDA66F817286448002080F1 /* UIKit.framework in Frameworks */,
 				DFDA66FA17286448002080F1 /* Foundation.framework in Frameworks */,
 				DFDA66FC17286448002080F1 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +115,8 @@
 		DFDA66F617286448002080F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFDA67371728648B002080F1 /* CoreLocation.framework */,
+				DFDA673517286486002080F1 /* MapKit.framework */,
 				DFDA66F717286448002080F1 /* UIKit.framework */,
 				DFDA66F917286448002080F1 /* Foundation.framework */,
 				DFDA66FB17286448002080F1 /* CoreGraphics.framework */,
@@ -122,6 +133,8 @@
 				DFDA670F17286448002080F1 /* MainStoryboard.storyboard */,
 				DFDA671217286448002080F1 /* ViewController.h */,
 				DFDA671317286448002080F1 /* ViewController.m */,
+				DFDA673C1728657A002080F1 /* MapAnnotation.h */,
+				DFDA673D1728657A002080F1 /* MapAnnotation.m */,
 				DFDA66FE17286448002080F1 /* Supporting Files */,
 			);
 			path = MapKit;
@@ -273,6 +286,7 @@
 				DFDA670417286448002080F1 /* main.m in Sources */,
 				DFDA670817286448002080F1 /* AppDelegate.m in Sources */,
 				DFDA671417286448002080F1 /* ViewController.m in Sources */,
+				DFDA673E1728657A002080F1 /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
